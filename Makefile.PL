@@ -5,16 +5,12 @@ use ExtUtils::MakeMaker;
 eval { require 5.003_03 }
 	or die <<EOL;
 # This Module requires lvaluable subroutines, which are not avaiable
-# in the version of Perl earlier than 5.6.0. Please upgrade!
-EOL
-
-eval { use Date::Calc 4.3 }
-	or die <<EOL;
-# This Module requires Date::Calc (or with modifications Date::Pcalc).
-# Please install these before installing Date::Decade.
+# in the version of Perl earlier than 5.003_03. Please upgrade!
 EOL
 
 WriteMakefile (
 	'NAME'		=> 'Date::Decade',
 	'VERSION_FROM'	=> 'Decade.pm', # finds $VERSION
+#	'PREREQ_PM'	=> { 'Date::Pcalc' => 1.2 },
+	'PREREQ_PM'	=> { 'Date::Calc' => 4.3 },
 );

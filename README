@@ -32,19 +32,24 @@ DESCRIPTION
         This function returns which decade it is on a
         given month.
 
-REQUIREMENTS
+PREREQUISITES
+    This module requires perl 5.003_03 or later and:
+
     Date:Calc 4.3 by Steffen Beyer <sb@engelschall.com>,
     http://www.cpan.org/authors/id/STBEY/Date-Calc-4.3.tar.gz
 
-    or
+    or (with some changes)
 
-    Date:PCalc 1.2 by J. David Eisenberg <nessus@best.com>,
+    Date:Pcalc 1.2 by J. David Eisenberg <nessus@best.com>,
     http://www.cpan.org/authors/id/STBEY/Date-Pcalc-1.2.tar.gz
 
 BUGS
     No Bugs known for now. ;)
 
 HISTORY
+    - 2001-08-22 / 0.33
+    Errors in the file Makefile.PL corrected.
+
     - 2001-08-22 / 0.32
     First beta-release
 
@@ -57,5 +62,5 @@ COPYRIGHT
     and/or modify it under the same terms as Perl itself.
 
 SEE ALSO
-    perl(1).
+    Date::Calc or Date::Pcalc, perl(1).
 

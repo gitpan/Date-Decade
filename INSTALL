@@ -6,10 +6,11 @@ Requirements:
 	Date:Calc 4.3 by Steffen Beyer <sb@engelschall.com>,
 	http://www.cpan.org/authors/id/STBEY/Date-Calc-4.3.tar.gz
 
-	or
+	or (with some changes)
 
-	Date:PCalc 1.2 by J. David Eisenberg <nessus@best.com>,
+	Date:Pcalc 1.2 by J. David Eisenberg <nessus@best.com>,
 	http://www.cpan.org/authors/id/STBEY/Date-Pcalc-1.2.tar.gz
+
 
 To install:
 ~~~~~~~~~~~

@@ -44,7 +44,7 @@ use Date::Calc 4.3 qw(
 [ 10,10,11 , 10,10,9 , 10,10,11 , 10,10,10 , 10,10,11 , 10,10,10 , 10,10,11 , 10,10,11 , 10,10,10 , 10,10,11 , 10,10,10 , 10,10,11 ]
 );
 
-$VERSION = '0.32';
+$VERSION = '0.33';
 
 #///////////////////////////////////////////////////////////////////////#
 #									#
@@ -195,14 +195,16 @@ Date::Decade - Decade calculations
 
 
 
-=head1 REQUIREMENTS
+=head1 PREREQUISITES
+
+This module requires perl 5.003_03 or later and:
 
 Date:Calc 4.3 by Steffen Beyer <sb@engelschall.com>,
 http://www.cpan.org/authors/id/STBEY/Date-Calc-4.3.tar.gz
 
-or
+or (with some changes)
 
-Date:PCalc 1.2 by J. David Eisenberg <nessus@best.com>,
+Date:Pcalc 1.2 by J. David Eisenberg <nessus@best.com>,
 http://www.cpan.org/authors/id/STBEY/Date-Pcalc-1.2.tar.gz
 
 
@@ -214,6 +216,11 @@ No Bugs known for now. ;)
 
 
 =head1 HISTORY
+
+=item - 2001-08-22 / 0.33
+
+Errors in the file Makefile.PL corrected.
+
 
 =item - 2001-08-22 / 0.32
 
@@ -237,6 +244,6 @@ modify it under the same terms as Perl itself.
 
 =head1 SEE ALSO
 
-perl(1).
+Date::Calc or Date::Pcalc, perl(1).
 
 =cut
